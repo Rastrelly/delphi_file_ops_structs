@@ -1,0 +1,209 @@
+object Form1: TForm1
+  Left = 1088
+  Height = 514
+  Top = 214
+  Width = 656
+  Caption = 'Form1'
+  ClientHeight = 514
+  ClientWidth = 656
+  LCLVersion = '2.2.6.0'
+  object listRecords: TListBox
+    Left = 0
+    Height = 514
+    Top = 0
+    Width = 168
+    Align = alLeft
+    ItemHeight = 0
+    OnClick = listRecordsClick
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 168
+    Height = 514
+    Top = 0
+    Width = 488
+    Align = alClient
+    ClientHeight = 514
+    ClientWidth = 488
+    TabOrder = 1
+    object Panel2: TPanel
+      Left = 1
+      Height = 50
+      Top = 1
+      Width = 486
+      Align = alTop
+      ClientHeight = 50
+      ClientWidth = 486
+      TabOrder = 0
+      object btnAdd: TButton
+        Left = 1
+        Height = 48
+        Top = 1
+        Width = 75
+        Align = alLeft
+        Caption = 'Add'
+        OnClick = btnAddClick
+        TabOrder = 0
+      end
+      object btnModify: TButton
+        Left = 76
+        Height = 48
+        Top = 1
+        Width = 75
+        Align = alLeft
+        Caption = 'Modify'
+        OnClick = btnModifyClick
+        TabOrder = 1
+      end
+      object btnRemove: TButton
+        Left = 151
+        Height = 48
+        Top = 1
+        Width = 75
+        Align = alLeft
+        Caption = 'Remove'
+        OnClick = btnRemoveClick
+        TabOrder = 2
+      end
+    end
+    object Panel3: TPanel
+      Left = 1
+      Height = 412
+      Top = 51
+      Width = 486
+      Align = alClient
+      ClientHeight = 412
+      ClientWidth = 486
+      TabOrder = 1
+      object Label1: TLabel
+        Left = 8
+        Height = 15
+        Top = 8
+        Width = 32
+        Caption = 'Name'
+        ParentColor = False
+      end
+      object edName: TEdit
+        Left = 48
+        Height = 23
+        Top = 8
+        Width = 168
+        TabOrder = 0
+        Text = 'edName'
+      end
+      object Label2: TLabel
+        Left = 8
+        Height = 15
+        Top = 36
+        Width = 36
+        Caption = 'Sname'
+        ParentColor = False
+      end
+      object edSName: TEdit
+        Left = 48
+        Height = 23
+        Top = 36
+        Width = 168
+        TabOrder = 1
+        Text = 'edSName'
+      end
+      object Label3: TLabel
+        Left = 8
+        Height = 15
+        Top = 64
+        Width = 21
+        Caption = 'Age'
+        ParentColor = False
+      end
+      object edAge: TEdit
+        Left = 48
+        Height = 23
+        Top = 64
+        Width = 168
+        TabOrder = 2
+        Text = 'edAge'
+      end
+      object cbPost: TComboBox
+        Left = 8
+        Height = 23
+        Top = 112
+        Width = 212
+        ItemHeight = 15
+        ItemIndex = 0
+        Items.Strings = (
+          'Director'
+          'Executive'
+          'Manager'
+          'Clerk'
+          'Janitor'
+          'Security'
+          'Assassin'
+        )
+        Style = csDropDownList
+        TabOrder = 3
+        Text = 'Director'
+      end
+      object Label4: TLabel
+        Left = 8
+        Height = 15
+        Top = 88
+        Width = 23
+        Caption = 'Post'
+        ParentColor = False
+      end
+      object Memo1: TMemo
+        Left = 312
+        Height = 410
+        Top = 1
+        Width = 173
+        Align = alRight
+        Lines.Strings = (
+          ''
+        )
+        ReadOnly = True
+        ScrollBars = ssVertical
+        TabOrder = 4
+      end
+    end
+    object Panel4: TPanel
+      Left = 1
+      Height = 50
+      Top = 463
+      Width = 486
+      Align = alBottom
+      ClientHeight = 50
+      ClientWidth = 486
+      TabOrder = 2
+      object btnSaveDb: TButton
+        Left = 1
+        Height = 48
+        Top = 1
+        Width = 143
+        Align = alLeft
+        Caption = 'Save Database'
+        OnClick = btnSaveDbClick
+        TabOrder = 0
+      end
+      object btnLoadDb: TButton
+        Left = 144
+        Height = 48
+        Top = 1
+        Width = 152
+        Align = alLeft
+        Caption = 'Load Database'
+        OnClick = btnLoadDbClick
+        TabOrder = 1
+      end
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.mdb'
+    Filter = 'Database files (*.mdb)|*.mdb|All Files|*.*'
+    Left = 200
+    Top = 216
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 280
+    Top = 216
+  end
+end

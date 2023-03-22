@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="pdelphifostructs.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="udelphifostructs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="116"/>
+        <CursorPos X="32" Y="141"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="23">
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Column="123"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="46" Column="26" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="69" Column="43" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="87" Column="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="58" Column="37" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="77" Column="32" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="111" Column="13" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="79" Column="48" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="85" Column="22" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="113" Column="35" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="137" Column="21" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="148" Column="21" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="83" Column="61" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="84" Column="61" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="86" Column="61" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="141" Column="15" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="147" Column="21" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="146" Column="21" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="147" Column="21" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="148" Column="21" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="149" Column="21" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="151" Column="21" TopLine="129"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="126" Column="25" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="udelphifostructs.pas"/>
+        <Caret Line="122" Column="53" TopLine="105"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
